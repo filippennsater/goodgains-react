@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Router>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/workouts" exact Component={Workouts} />
