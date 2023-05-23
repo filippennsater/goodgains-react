@@ -13,7 +13,7 @@ function AboutSection() {
                     <figure className="aboutPic" />
 
                     <h8> <br /><br /><br />
-                        Denna sidan gjordes av mig, aka Filip Pennsäter.<br />
+                        Denna hemsidan gjordes av mig, aka Filip Pennsäter.<br />
                         Jag har alltid haft ett brinnande intresse för träning och haft många med och motgångar.<br />
                         Så jag har valt att dela med mig av min erfarenhet och sammanställt ett välfungerande tränings-schema.<br />
                         Den är dock inte 100% perfekt och även jag gör månadsvis förändringar.<br />

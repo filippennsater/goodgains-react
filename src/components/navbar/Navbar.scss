@@ -42,13 +42,20 @@
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: center;
+    justify-content: top;
     margin-right: 2rem;
   }
   
   .nav-item {
     height: 80px;
+    width: 100%;
   }
+
+  .nav-item-2 {
+    height: 80px;
+    width: 100%; 
+  }
+
   
   .nav-links {
     color: #000000;
@@ -98,7 +105,7 @@
       color: #000000;
       top:80px;
       left: 0;
-      opacity: 95%;
+      opacity: 100%;
       transition: all 0.5s ease;
       z-index: 1;
       border-radius: 0 0 10px 0;
@@ -168,4 +175,50 @@
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+
+/* Style the sidenav links and the dropdown button */
+.dropdown-btn {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  padding: 2rem;
+}
+
+/* On mouse-over */
+.dropdown-btn:hover {
+  color: white;
+  background-color: #313131;
+}
+
+
+
+/* Add an active class to the active dropdown button */
+.active {
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: none;
+
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
 }

@@ -37,6 +37,29 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
+
+
+
+
+
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+
+
+
     return (
 
         <>
@@ -52,25 +75,61 @@ function Navbar() {
 
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                                Home
+                                Hem
                             </Link>
                         </li>
 
-                        <li className='nav-item'>
-                            <Link to='/workouts' className='nav-links' onClick={closeMobileMenu}>
-                                Workouts
-                            </Link>
-                        </li>
+                        <button class="dropdown-btn">Träningspass
+                            <i class="fa fa-caret-down"></i>
+                        </button>
 
-                       
+                        <div class="dropdown-container">
+
+
+                            <li className='nav-item-2'>
+                                <Link to='/chest' className='nav-links' onClick={closeMobileMenu}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bröst
+                                </Link>
+                            </li>
+
+                            <li className='nav-item-2'>
+                                <Link to='/back' className='nav-links' onClick={closeMobileMenu}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rygg
+                                </Link>
+                            </li>
+
+                            <li className='nav-item-2'>
+                                <Link to='/shoulders' className='nav-links' onClick={closeMobileMenu}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Axlar
+                                </Link>
+                            </li>
+
+                            <li className='nav-item-2'>
+                                <Link to='/arms' className='nav-links' onClick={closeMobileMenu}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Armar
+                                </Link>
+                            </li>
+
+                            <li className='nav-item-2'>
+                                <Link to='/legs' className='nav-links' onClick={closeMobileMenu}>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ben
+                                </Link>
+                            </li>
+
+                        { /* yes I know "&nbsp;" is an incredibly ugly fix*/}
+
+                        </div>
+
+                        
+
 
                         <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                                About
+                                Om
                             </Link>
                         </li>
 
-                        
+
 
                     </ul>
 
