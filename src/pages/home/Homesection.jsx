@@ -5,11 +5,12 @@ import './HomeSection.scss';
 function HomeSection() {
     return (
         <div className='hero-container'>
-            
 
-            <h1>Woooooorkout!</h1>
-            <p>skrrrrrrrr?</p>
-            
+            <h6>Välkommen till</h6>
+            <h5>GoodGains</h5>
+            <h6>Välj pass via menyn</h6>
+
+
         </div>
     )
 }

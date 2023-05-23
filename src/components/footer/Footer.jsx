@@ -56,8 +56,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            Portfolio
-                            <i className='fas fa-book' />
+                        <h7>GoodGains</h7>&nbsp;<i class="fa-solid fa-dumbbell"></i>
                         </Link>
                     </div>
                     <small className='website-rights'>© 2023</small>

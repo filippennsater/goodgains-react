@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: #242424;
+    background-color: #bebebe;
     padding: 1rem 0 2rem 0;
     display: flex;
     flex-direction: column;
@@ -77,19 +77,19 @@
   
   .footer-link-items > h2 {
     font-size: 20px;
-    color: #fff;
+    color: #000000;
     margin-bottom: 30px;
     text-decoration: underline;
   }
   
   .footer-link-items a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     margin-bottom: 0.5rem;
   }
   
   .footer-link-items a:hover {
-    color: #636363;
+    color: #8183fd;
     transition: 0.3s ease-out;
   }
   
@@ -104,12 +104,12 @@
   
   /* Social Icons */
   .social-icon-link {
-    color: #fff;
+    color: #000000;
     font-size: 24px;
   }
 
   .social-icon-link:hover {
-    color: #636363;
+    color: #8183fd;
     transition: 0.5s;
   }
   
@@ -135,7 +135,7 @@
   }
   
   .social-logo {
-    color: #fff;
+    color: #000000;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -148,7 +148,7 @@
 
   
   .website-rights {
-    color: #fff;
+    color: #000000;
     margin-bottom: 16px;
   }
   
@@ -180,7 +180,7 @@
 
   p3{
     font-size: 16px;
-    color:white;
+    color:rgb(0, 0, 0);
     margin-bottom: 0.5rem;
   }
 
@@ -246,3 +246,10 @@
       width: 300px;
     }
   }
+
+
+  h7{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
