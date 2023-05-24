@@ -10,16 +10,16 @@ function LegsSection() {
 
                 <br />
                 <center><texth1>Ben</texth1> <br /><br />
-                    <p2>Viktigt:</p2> <br />
+                    <h3>Viktigt:</h3>
                     <p>Alla de set där antalet repetitioner inte nämns är 8-9 repetitioner vardera!</p></center>
 
                 <div id="workoutsFlowText">
 
                     <div id="textBoxes">
                         <h3>Uppvärmning:</h3>
-                        Löpband eller crosstrainer 10-15 min.
+                        <p>Löpband eller crosstrainer 10-15 min.</p>
                         <h3>Benpress eller squats:</h3>
-                        Öka långsamt med 3 set som uppvärmning, försök sedan ta 3 set så högt du kan och gå ner i vikt 1 set. (spola till 1:40)
+                        <p>Öka långsamt med 3 set som uppvärmning, försök sedan ta 3 set så högt du kan och gå ner i vikt 1 set. (spola till 1:40)</p>
                     </div>
 
                     <div id="textBoxes">
@@ -27,22 +27,22 @@ function LegsSection() {
 
                     <div id="textBoxes">
                         <h3>Utfallssteg:</h3>
-                        3-4 set med eller utan vikt 8-10 repetitioner på varje ben.
+                        <p>3-4 set med eller utan vikt 8-10 repetitioner på varje ben.</p>
                     </div>
 
                     <div id="textBoxes">
                         <h3>Leg extensions:</h3>
-                        3-4 set med lagom hög vikt.
+                        <p>3-4 set med lagom hög vikt.</p>
                     </div>
 
                     <div id="textBoxes">
                         <h3>Liggande leg curls:</h3>
-                        3-4 set med lagom/hög vikt.
+                        <p>3-4 set med lagom/hög vikt.</p>
                     </div>
 
                     <div id="textBoxes">
                         <h3>Sittande/stående vadlyft:</h3>
-                        3-4 set, 10-20 rep vardera.
+                        <p>3-4 set, 10-20 rep vardera.</p>
                         <h3>Klar!</h3>
                     </div>
 

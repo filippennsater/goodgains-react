@@ -94,7 +94,7 @@
 	position: absolute;
 	align-content: left;
 	left: 10%;
-	top: 20%;
+	top: calc(300px - 1vw);
 	width: 30%;
 	bottom: 0;
 }
@@ -103,7 +103,7 @@
 	position: absolute;
 	align-content: center;
 	right: 10%;
-	top: 20%;
+	top: calc(300px - 1vw);
 	width: 30%;
 	bottom: 0;
 }
@@ -213,3 +213,12 @@ texth1{
 }
 
 
+p{
+  font-size: calc(7px + 0.3vw);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+h3{
+  text-decoration: underline;
+}

@@ -123,10 +123,16 @@
 h5{
     font-size: calc(50px + 7vw);
     font-family: 'Dancing Script', cursive;
-    margin-top: -5%;
+    margin-top: calc(-10% + 7vw);
 }
 
 h6{
+    font-size: calc(20px + 2vw);
+    font-family: 'Dancing Script', cursive;
+}
+
+h4{
+    margin-top: calc(-30% + 30vw);
     font-size: calc(20px + 2vw);
     font-family: 'Dancing Script', cursive;
 }

@@ -10,14 +10,14 @@ function ShouldersSection() {
 
                 <br />
                 <center><texth1>Axlar</texth1> <br /><br />
-                    <p2>Viktigt:</p2> <br />
+                    <h3>Viktigt:</h3>
                     <p>Alla de set där antalet repetitioner inte nämns är 8-9 repetitioner vardera!</p></center>
 
                 <div id="workoutsFlowText">
 
                     <div id="textBoxes">
                         <h3>Vanliga, främre och bakre axelflys:</h3>
-                        Alla tre övningar ska köras parallellt/direkt efter varandra i varje set, 3x8 repetitioner vardera. Börja med låg vikt 2 set <br /><br />Därefter 4 set så pass tungt att du stadigt kan få upp vikterna <u>UTAN ATT SVINGA UPP DEM</u> och hålla kvar i någon halv sekund högst upp och gå ner långsamt.
+                        <p>Alla tre övningar ska köras parallellt/direkt efter varandra i varje set, 3x8 repetitioner vardera. Börja med låg vikt 2 set <br /><br />Därefter 4 set så pass tungt att du stadigt kan få upp vikterna <u>UTAN ATT SVINGA UPP DEM</u> och hålla kvar i någon halv sekund högst upp och gå ner långsamt.</p>
                         </div>
 
                             <div id="textBoxes">
@@ -30,12 +30,12 @@ function ShouldersSection() {
 
                             <div id="textBoxes">
                                 <h3>Axelpress:</h3>
-                                3-4 set med lagom hög vikt. (spola till 0:20)
+                                <p>3-4 set med lagom hög vikt. (spola till 0:20)</p>
                             </div>
 
                             <div id="textBoxes">
                                 <h3>Face pulls:</h3>
-                                3-4 set.
+                                <p>3-4 set.</p>
                                 <h3>Klar!</h3>
                             </div>
 
