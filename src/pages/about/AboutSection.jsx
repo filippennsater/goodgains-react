@@ -4,9 +4,8 @@ import './AboutSection.scss';
 
 function AboutSection() {
     return (
-        <div className='hero-container'>
+        <div className='about-container'>
 
-            <div className='postflow'>
 
                 <div className='aboutContent'>
 
@@ -23,7 +22,6 @@ function AboutSection() {
                         Mvh Filip</h8>
                 </div>
 
-            </div>
 
         </div>
     )

@@ -1,10 +1,22 @@
 .aboutContent{
-    margin-top: 0%;
-    padding: 5%;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
 
     /*centers in x and y*/
+
+    align-items: center;
+    object-fit: contain;
+}
+
+.about-container {
+    /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+   
 
     align-items: center;
     object-fit: contain;
@@ -32,9 +44,9 @@
 
   h8{
     text-align: center;
-    font-size: 25px;
+    font-size: calc(12px + 0.4vw);
     font-weight: 999;
     font-family: 'Dancing Script', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Indie Flower', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Indie Flower', cursive;
 }
